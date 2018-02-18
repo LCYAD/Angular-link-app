@@ -1,0 +1,26 @@
+
+<div class="col-lg-10 col-lg-offset-1" id="link-container">
+  <div class="col-lg-12" id="link-title"><i>Link for {{searchStr}}</i></div>
+
+  <div class="col-lg-12">
+      <div *ngFor="let link of links | filter:searchStr " class="col-lg-12 link-box">
+        <a class="col-lg-3 link-title" href="{{link.url}}">{{link.title}}</a>
+        <div class="col-lg-6 text-right tag-box">
+          <span *ngFor="let tag of link.tags.tags">{{tag}}</span>
+        </div>
+        <div class="col-lg-1">
+          <button (click)="removeLink($event)" class="btn btn-default" value="{{link.id}}">X</button>
+        </div>
+        <div *ngIf="link.shared; else notShared"class="col-lg-2">
+          <button (click)="toggleShare($event)" class="btn btn-default shared" value="{{link.id}}">Shared</button>
+        </div>
+        <ng-template #notShared>
+          <div class="col-lg-2">
+            <button (click)="toggleShare($event)" class="btn btn-default" value="{{link.id}}">Share</button>
+          </div>
+        </ng-template>
+      </div>
+  </div>
+</div>
+
+

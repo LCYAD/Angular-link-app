@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1238755",
+        "title": "Google",
+        "url": "http://www.google.com",
+        "tags": {
+            "tags": ["Search", "Google"]
+        },
+        "shared": true
+    },
+    {
+        "id": "1234564",
+        "title": "Accelerate",
+        "url": "https://www.acceleratedhk.com/",
+        "tags": {
+            "tags": ["bootcamp", "Accelerate"]
+        },
+        "shared": false
+    },
+    {
+        "id": "17894651",
+        "title": "Facebook",
+        "url": "https://www.facebook.com/",
+        "tags": {
+            "tags": ["Social", "Facebook"]
+        },
+        "shared": true
+    }
+]

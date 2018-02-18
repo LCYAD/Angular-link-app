@@ -1,0 +1,25 @@
+img{
+    height: 200px;
+    width: 250px;
+    overflow: hidden;
+}
+
+#image-div{
+    margin: 50px 0px 20px 0px;
+}
+
+#fav-link-div{
+    padding: 10px;
+    font-size: 18px;
+}
+
+#shared-link-div{
+    padding: 10px;
+    font-size: 18px;
+}
+
+#profile-name{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}

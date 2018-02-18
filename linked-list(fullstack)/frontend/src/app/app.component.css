@@ -1,0 +1,20 @@
+.container{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#top-part{
+    height: 10vh;
+    background: rgba(66, 16, 66, 0.377);
+}
+
+#left-side{
+    height: 90vh;
+    border-right: 2px solid grey;
+}
+
+#right-side{
+    height: 90vh;
+}
